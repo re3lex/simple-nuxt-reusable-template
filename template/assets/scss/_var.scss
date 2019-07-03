@@ -1,0 +1,13 @@
+//Breakpoints
+$large-screen: 1200px;
+$landscape-screen: 992px;
+$tablet-screen: 768px;
+
+$landscape-and-down: 'only screen and (max-width : #{$landscape-screen})';
+$tablet-and-down: 'only screen and (max-width : #{$tablet-screen})';
+$large-and-down: 'only screen and (max-width : #{$large-screen})';
+$tablet-and-up: 'only screen and (min-width: #{$tablet-screen})';
+$landscape-and-up: 'only screen and (min-width: #{$landscape-screen})';
+$smaller-than-tablet: 'only screen and (max-width:  #{$tablet-screen - 1})';
+
+$background-color: var(--gray-dark);
