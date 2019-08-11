@@ -3,10 +3,10 @@
 		<div>
 			<logo />
 			<h1 class="title">
-				color-palete
+				{{name}}
 			</h1>
 			<h2 class="subtitle">
-				Presents color palete
+				{{description}}
 			</h2>
 			<div class="links">
 				<a
